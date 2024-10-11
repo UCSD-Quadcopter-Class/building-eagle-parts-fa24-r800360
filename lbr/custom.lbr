@@ -164,7 +164,7 @@
 </symbol>
 <symbol name="LED">
 <pin name="A" x="-15.24" y="0" length="middle"/>
-<pin name="B" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="C" x="15.24" y="0" length="middle" rot="R180"/>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.1524" layer="94"/>
@@ -270,7 +270,7 @@
 <device name="D-0805-621NM" package="0805_LED">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="C"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
