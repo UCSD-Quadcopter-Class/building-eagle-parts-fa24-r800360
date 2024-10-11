@@ -229,7 +229,6 @@
 <pin name="OCS_AUX" x="10.16" y="-2.54" length="middle" rot="R90"/>
 <pin name="INT2" x="7.62" y="-2.54" length="middle" rot="R90"/>
 <pin name="VDD" x="5.08" y="-2.54" length="middle" rot="R90"/>
-<pin name="GND1" x="5.08" y="33.02" length="middle" rot="R270"/>
 <pin name="GND" x="7.62" y="33.02" length="middle" rot="R270"/>
 <pin name="VDDIO" x="10.16" y="33.02" length="middle" rot="R270"/>
 <pin name="INT1" x="12.7" y="33.02" length="middle" rot="R270"/>
@@ -313,8 +312,7 @@
 <device name="LSM6DSO-IMU" package="IMU_LSM6DSO">
 <connects>
 <connect gate="G$1" pin="CS" pad="CS"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND" pad="GND GND1"/>
 <connect gate="G$1" pin="INT1" pad="INT1"/>
 <connect gate="G$1" pin="INT2" pad="INT2"/>
 <connect gate="G$1" pin="OCS_AUX" pad="OCS_AUX"/>
