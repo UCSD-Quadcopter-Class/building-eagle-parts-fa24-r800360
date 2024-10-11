@@ -338,7 +338,6 @@
 <attribute name="CREATOR" value="ROHAN SACHDEVA"/>
 <attribute name="DIST" value="Digikey"/>
 <attribute name="DISTPN" value="497-18367-1-ND"/>
-<attribute name="VALUE" value="14-LGA-2.5-3"/>
 </technology>
 </technologies>
 </device>
