@@ -125,7 +125,7 @@
 <wire x1="-1.52" y1="-0.7" x2="-1.52" y2="0.7" width="0.12" layer="51"/>
 <wire x1="-1.52" y1="0.7" x2="1.52" y2="0.7" width="0.12" layer="51"/>
 <wire x1="1.52" y1="0.7" x2="1.52" y2="-0.7" width="0.12" layer="51"/>
-<text x="0" y="3.089" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="2.489" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-0.2795" y1="0.663" x2="0.2795" y2="1.387" layer="29"/>
 <rectangle x1="-0.2795" y1="0.663" x2="0.2795" y2="1.387" layer="31"/>
 <rectangle x1="-1.2295" y1="-1.306" x2="-0.6705" y2="-0.582" layer="29"/>
