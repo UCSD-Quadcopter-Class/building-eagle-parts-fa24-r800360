@@ -93,7 +93,7 @@
 <wire x1="1.7" y1="-1" x2="-1.7" y2="-1" width="0.12" layer="21"/>
 <wire x1="-1.7" y1="1" x2="1.7" y2="1" width="0.12" layer="21"/>
 </package>
-<package name="0805_LED">
+<package name="LED_160-1178-1-ND">
 <description>Chip LED, 2.00 X 1.25 X 1.20 mm body
  &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.20 mm&lt;/p&gt;</description>
 <smd name="A" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
@@ -277,7 +277,7 @@
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="D-0805-RED-621NM" package="0805_LED">
+<device name="D-0805-RED-621NM" package="LED_160-1178-1-ND">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
